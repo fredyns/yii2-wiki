@@ -1,0 +1,1 @@
+Welcome to the yii2 wiki!
