@@ -6,7 +6,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ## Roadmap of Yii 2.0
 
-### April 13, 2012
+### Ready April 13, 2012
 
 - Base object and component classes with new event system and improved behavior system.
 - Logging and error handling.
@@ -15,7 +15,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - DAO, query builder.
 - ActiveRecord.
 
-### May 29, 2012
+### Ready May 29, 2012
 
 - Base module and application classes.
 - Base controller, action and view classes.
