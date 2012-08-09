@@ -25,7 +25,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Todos BEFORE Alpha
 
-- Web controller and application.
+- Web controller and application (in progress).
 - Request/Response classes.
 - I18N.
 - URL manager.
@@ -34,7 +34,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - client script.
 - auth/RBAC.
 - HTML/form helpers.
-- webapp command.
+- webapp command (in progress).
 
 ### Todos AFTER Alpha
 
