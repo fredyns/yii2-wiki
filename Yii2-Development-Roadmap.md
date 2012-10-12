@@ -34,7 +34,9 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - client script.
 - auth/RBAC.
 - HTML/form helpers.
+- Better `rules` for models (in progress).
 - webapp command (in progress).
+- New colorful console (in progress).
 
 ### Todos AFTER Alpha
 
