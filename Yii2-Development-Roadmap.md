@@ -23,6 +23,12 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Console application and commands.
 - Caching.
 
+### Work in progress
+
+- Re-thinking of Active Record.
+- Better validation process.
+- Overall structure adjustments.
+
 ### Todos BEFORE Alpha
 
 - Web controller and application (in progress).
