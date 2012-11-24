@@ -25,13 +25,15 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Work in progress
 
+- Web controller and application.
 - Re-thinking of Active Record.
 - Better validation process.
+- webapp command.
+- New colorful console (almost done).
 - Overall structure adjustments.
 
 ### Todos BEFORE Alpha
 
-- Web controller and application (in progress).
 - Request/Response classes.
 - I18N.
 - URL manager.
@@ -40,9 +42,6 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - client script.
 - auth/RBAC.
 - HTML/form helpers.
-- Better `rules` for models (in progress).
-- webapp command (in progress).
-- New colorful console (in progress).
 
 ### Todos AFTER Alpha
 
