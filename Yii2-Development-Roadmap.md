@@ -23,18 +23,22 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Console application and commands.
 - Caching.
 
+### Ready December 26, 2012
+
+- `yiic create` (better `yiic webapp`).
+- Better validation (`rules` divided into `rules` and `scenarios`, removed `safe` and `unsafe`).
+- Better error handler (errors are converted to `ErrorException`).
+
 ### Work in progress
 
+- Request/Response classes, cookie management.
 - Web controller and application.
-- Re-thinking of Active Record.
-- Better validation process.
-- webapp command.
-- New colorful console (almost done).
+- Re-thinking of Active Record and Relational Active Record.
+- Console formatting helper (including colors).
 - Overall structure adjustments.
 
 ### Todos BEFORE Alpha
 
-- Request/Response classes.
 - I18N.
 - URL manager.
 - session.
