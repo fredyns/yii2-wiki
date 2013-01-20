@@ -29,11 +29,14 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Better validation (`rules` divided into `rules` and `scenarios`, removed `safe` and `unsafe`).
 - Better error handler (errors are converted to `ErrorException`).
 
+### Ready January 20, 2013
+
+- Re-thinking of Active Record and Relational Active Record.
+
 ### Work in progress
 
 - Request/Response classes, cookie management.
 - Web controller and application.
-- Re-thinking of Active Record and Relational Active Record.
 - Console formatting helper (including colors).
 - Overall structure adjustments.
 
