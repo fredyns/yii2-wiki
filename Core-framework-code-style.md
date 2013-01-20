@@ -88,13 +88,14 @@ Method names MUST be declared in `camelCase()`.
 
 Use the following format for associative arrays:
 
-~~~
+```php
 $config = array(
 	'name'  => 'Yii',
 	'options' => array(
 		'usePHP' => true,
 	),
 );
+```
 
 ### 5.2 Strings
 
