@@ -31,7 +31,7 @@ PHP code MUST use only UTF-8 without BOM.
 3. Class Names
 --------------
 
-Class names MUST be declared in `StudlyCaps`. Core classes should be prefixed with `C`. For example, `CController`, `CWidget`. Application and extension classes should not use `C` as prefix. For extensions it's common to use `E`.
+Class names MUST be declared in `StudlyCaps`. For example, `Controller`, `Model`.
 
 4. Classes
 ----------
