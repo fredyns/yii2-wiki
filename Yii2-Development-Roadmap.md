@@ -33,7 +33,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 - Re-thinking of Active Record and Relational Active Record.
 
-### Ready February 20, 2013
+### Ready February 11, 2013
 
 - Overall structure adjustments.
 - Commonly used console commands.
