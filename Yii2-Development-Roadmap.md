@@ -33,12 +33,16 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 - Re-thinking of Active Record and Relational Active Record.
 
+### Ready February 20, 2013
+
+- Overall structure adjustments.
+- Commonly used console commands.
+
 ### Work in progress
 
 - Request/Response classes, cookie management.
 - Web controller and application.
 - Console formatting helper (including colors).
-- Overall structure adjustments.
 
 ### Todos BEFORE Alpha
 
@@ -53,6 +57,5 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 ### Todos AFTER Alpha
 
 - Gii.
-- Commonly used console commands.
 - Advanced widgets (e.g. grid view).
 - API documentation generator.
