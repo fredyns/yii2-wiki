@@ -43,6 +43,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Request/Response classes, cookie management.
 - Web controller and application.
 - Console formatting helper (including colors).
+- NoSQL backends for ActiveRecord
 
 ### Todos BEFORE Alpha
 
