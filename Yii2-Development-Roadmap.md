@@ -31,16 +31,23 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Ready January 20, 2013
 
-- Re-thinking of Active Record and Relational Active Record.
+- New design and implementation of Active Record and Relational Active Record.
 
 ### Ready February 11, 2013
 
 - Overall structure adjustments.
 - Commonly used console commands.
 
+### Ready March 4, 2013
+
+- URL manager.
+- session.
+- cookie.
+- SecurityHelper.
+
 ### Work in progress
 
-- Request/Response classes, cookie management.
+- Request/Response classes.
 - Web controller and application.
 - Console formatting helper (including colors).
 - NoSQL backends for ActiveRecord
@@ -48,8 +55,6 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 ### Todos BEFORE Alpha
 
 - I18N.
-- URL manager.
-- session.
 - asset manager. 
 - client script.
 - auth/RBAC.
