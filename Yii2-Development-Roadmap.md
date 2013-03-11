@@ -45,20 +45,26 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - cookie.
 - SecurityHelper.
 
+### Ready March 11, 2013
+
+- Sort
+- Pagination
+- Html
+
 ### Work in progress
 
+- ActiveForm
+- User
+- Asset and script manager
 - Request/Response classes.
 - Web controller and application.
-- Console formatting helper (including colors).
-- NoSQL backends for ActiveRecord
 
 ### Todos BEFORE Alpha
 
 - I18N.
-- asset manager. 
-- client script.
 - auth/RBAC.
-- HTML/form helpers.
+- NoSQL backends for ActiveRecord
+- Console formatting helper (including colors).
 
 ### Todos AFTER Alpha
 
