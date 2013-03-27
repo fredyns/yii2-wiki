@@ -51,6 +51,12 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Pagination
 - Html
 
+### Ready March 26, 2013
+
+- FragmentCache
+- PageCache
+- HttpCache
+
 ### Work in progress
 
 - ActiveForm
@@ -58,10 +64,10 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Asset and script manager
 - Request/Response classes.
 - Web controller and application.
+- I18N.
 
 ### Todos BEFORE Alpha
 
-- I18N.
 - auth/RBAC.
 - NoSQL backends for ActiveRecord
 - Console formatting helper (including colors).
