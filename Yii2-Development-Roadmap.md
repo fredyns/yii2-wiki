@@ -56,6 +56,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - FragmentCache
 - PageCache
 - HttpCache
+- AccessControl
 
 ### Work in progress
 
@@ -68,7 +69,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Todos BEFORE Alpha
 
-- auth/RBAC.
+- RBAC.
 - NoSQL backends for ActiveRecord
 - Console formatting helper (including colors).
 
