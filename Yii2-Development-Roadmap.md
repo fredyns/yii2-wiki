@@ -61,6 +61,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 ### Ready April 1, 2013
 
  - User and Identity
+ - Optimistic Locking of ActiveRecord
  - I18N
 
 ### Todos BEFORE Public Preview
