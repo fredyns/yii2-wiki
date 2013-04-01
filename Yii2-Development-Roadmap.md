@@ -58,14 +58,17 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - HttpCache
 - AccessControl
 
-### Work in progress
+### Ready April 1, 2013
+
+ - User and Identity
+ - I18N
+
+### Todos BEFORE Public Preview
 
 - ActiveForm
-- User
 - Asset and script manager
 - Request/Response classes.
 - Web controller and application.
-- I18N.
 
 ### Todos BEFORE Alpha
 
@@ -73,7 +76,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - NoSQL backends for ActiveRecord
 - Console formatting helper (including colors).
 
-### Todos AFTER Alpha
+### Todos BEFORE Beta
 
 - Gii.
 - Advanced widgets (e.g. grid view).
