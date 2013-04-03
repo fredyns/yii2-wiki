@@ -11,7 +11,6 @@ The following code style is used for Yii 2.x development. If you want to pull-re
 - Method names MUST be declared in `camelCase`.
 - Property names MUST be declared in `camelCase`.
 - Property names MUST start with an initial underscore if they are private.
-- Indentation uses [K&R style](http://en.wikipedia.org/wiki/Indent_style#K.26R_style).
 - Always use `elseif` instead of `else if`.
 
 2. Files
