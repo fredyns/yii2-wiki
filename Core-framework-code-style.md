@@ -222,3 +222,127 @@ $config = array(
 	),
 );
 ```
+
+### 5.4 control statements
+
+- Control statement condition must have single space before and after parenthesis.
+- Operators inside of parenthesis should be separated by spaces.
+- Opening brace is on the same line.
+- Closing brace is on a new line.
+- Always use braces for single line statements.
+
+```php
+if ($event === null) {
+	return new Event();
+} elseif ($event instanceof CoolEvent) {
+	return $event->instance();
+} else {
+	return null;
+}
+
+// the following is NOT allowed:
+if(!$model)
+	throw new Exception('test');
+```
+
+#### switch
+
+Use the following formatting for switch:
+
+```php
+switch ($this->phpType) {
+	case 'string':
+		$a = (string)$value;
+		break;
+	case 'integer':
+	case 'int':
+		$a = (integer)$value;
+		break;
+	case 'boolean':
+		$a = (boolean)$value;
+		break;
+	default:
+		$a = null;
+}
+```
+
+### 5.5 function calls
+
+```php
+doIt(2, 3);
+
+doIt(array(
+	'a' => 'b',
+));
+
+doIt('a', array(
+	'a' => 'b',
+));
+```
+
+Documentation
+-------------
+
+- Refer ot [phpDoc](http://phpdoc.org/) for documentation syntax.
+- Code without documentation is not allowed.
+- All class files must contain a "file-level" docblock at the top of each file
+  and a "class-level" docblock immediately above each class.
+- There is no need to use `@return` if method does return nothing.
+
+#### File
+
+```php
+<?php
+/**
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright (c) 2008 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ */
+```
+
+#### Class
+
+```php
+/**
+ * Component is the base class that provides the *property*, *event* and *behavior* features.
+ *
+ * @include @yii/docs/base-Component.md
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @since 2.0
+ */
+class Component extends \yii\base\Object
+```
+
+
+#### Function / method
+
+```php
+/**
+ * Returns the list of attached event handlers for an event.
+ * You may manipulate the returned [[Vector]] object by adding or removing handlers.
+ * For example,
+ *
+ * ~~~
+ * $component->getEventHandlers($eventName)->insertAt(0, $eventHandler);
+ * ~~~
+ *
+ * @param string $name the event name
+ * @return Vector list of attached event handlers for the event
+ * @throws Exception if the event is not defined
+ */
+public function getEventHandlers($name)
+{
+	if (!isset($this->_e[$name])) {
+		$this->_e[$name] = new Vector;
+	}
+	$this->ensureBehaviors();
+	return $this->_e[$name];
+}
+```
+
+#### Comments
+
+- One-line comments should be started with `//` and not `#`.
+- One-line comment should be on its own line.
+
