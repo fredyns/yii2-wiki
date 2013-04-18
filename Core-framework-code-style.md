@@ -72,7 +72,7 @@ class Foo
 
 - When declaring public class members specify `public` keyword explicitly.
 - Variables should be declared at the top of the class before any method declarations.
-- Private and protected variables should be named like `$_varName`.
+- Private variables should be named like `$_varName`.
 - Public class members and standalone variables should be named using `$camelCase`
   with first letter lowercase.
 - Use descriptive names. Variables such as `$i` and `$j` are better not to be used.
