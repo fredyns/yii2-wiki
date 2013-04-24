@@ -64,10 +64,14 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
  - Optimistic Locking of ActiveRecord
  - I18N
 
+### Ready April 20, 2013
+
+ - Asset and script management
+ - Extension organization
+
 ### Todos BEFORE Public Preview
 
 - ActiveForm
-- Asset and script manager
 - Request/Response classes.
 - Web controller and application.
 
