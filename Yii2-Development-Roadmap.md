@@ -69,9 +69,13 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
  - Asset and script management
  - Extension organization
 
+### Ready May 3, 2013
+ 
+ - ActiveForm
+ - Hello world app
+
 ### Todos BEFORE Public Preview
 
-- ActiveForm
 - Request/Response classes.
 - Web controller and application.
 
