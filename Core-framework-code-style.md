@@ -4,6 +4,7 @@ The following code style is used for Yii 2.x core and official extensions develo
 -----------
 
 - Files MUST use only `<?php` tags.
+- There should be a newline at the end of file.
 - Files MUST use only UTF-8 without BOM for PHP code.
 - Code MUST use tabs for indenting, not spaces.
 - Class names MUST be declared in `StudlyCaps`.
