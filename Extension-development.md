@@ -4,7 +4,12 @@ Code style
 - Extension code style should be similar to [core framework code style](https://github.com/yiisoft/yii2/wiki/Core-framework-code-style).
 - In case of using getter and setter for defining a property it's preferred to use method in extension code rather than property.
 - TBD: namespace
-- All classes, methods and properties should be documented using phpdoc. Note that you can use markdown and like to API documents using `[[name()]]`.
+- All classes, methods and properties should be documented using phpdoc. Note that you can use markdown and like to API documents using 
+
+```
+[[name()]]
+```
+
 - If you're displaying errors to developers do not translate these (i.e. do not use `\Yii::t()`). Errors should be translated only of they're displayed to end users.
 
 Distribution
