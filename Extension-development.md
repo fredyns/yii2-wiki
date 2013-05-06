@@ -1,0 +1,2 @@
+1. Extension code style should be similar to [core framework code style](https://github.com/yiisoft/yii2/wiki/Core-framework-code-style).
+2. There should be a `readme.md` file clearly describing what extension does, its requirements, how to install and use it.
