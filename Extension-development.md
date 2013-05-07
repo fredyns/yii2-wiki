@@ -15,7 +15,7 @@ Code style
 Distribution
 ------------
 
-- There should be a `readme.md` file clearly describing what extension does, its requirements, how to install and use it. It should be written using markdown. If you want to provide translated readme name it as `readme_ru.md` where `ru` is your language code.
+- There should be a `readme.md` file clearly describing what extension does in English, its requirements, how to install and use it. It should be written using markdown. If you want to provide translated readme, name it as `readme_ru.md` where `ru` is your language code.
 - TBD: composer.json
 
 Working with database
