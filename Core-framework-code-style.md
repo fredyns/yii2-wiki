@@ -150,6 +150,17 @@ $config = array(
 );
 ```
 
+Changing type of an existing variable is considered as a bad practice. Try not to write such code unless it is really necessary.
+
+
+```php
+public function save(Transaction $transaction, $argument2 = 100)
+{
+	$transaction = new Connection; // bad
+	$argument2 = 200; // good
+}
+```
+
 ### 5.2 Strings
 
 - If string doesn't contain variables or single quotes, use single quotes.
