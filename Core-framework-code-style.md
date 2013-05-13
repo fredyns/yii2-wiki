@@ -253,7 +253,7 @@ if ($event === null) {
 }
 
 // the following is NOT allowed:
-if(!$model)
+if(!$model && null === $event)
 	throw new Exception('test');
 ```
 
