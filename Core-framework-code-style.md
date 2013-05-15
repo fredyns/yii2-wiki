@@ -115,15 +115,6 @@ class Foo
 }
 ~~~
 
-Use type hinting where possible:
-
-```php
-public function __construct(CDbConnection $connection)
-{
-	$this->connection = $connection;
-}
-```
-
 ### 4.4 Doc blocks
 
 `@param`, `@var`, `@property` and `@return` must declare types as `boolean`, `integer`, `string`, `array` or `null`. You can use a class names as well such as `Model` or `ActiveRecord`. For a typed arrays use `ClassName[]`.
