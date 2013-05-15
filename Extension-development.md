@@ -10,7 +10,7 @@ Code style
 [[name()]]
 ```
 
-- If you're displaying errors to developers do not translate these (i.e. do not use `\Yii::t()`). Errors should be translated only of they're displayed to end users.
+- If you're displaying errors to developers do not translate these (i.e. do not use `\Yii::t()`). Errors should be translated only if they're displayed to end users.
 
 Distribution
 ------------
