@@ -26,7 +26,7 @@ extensions
   twig - twig support, subtree for read-only yii2-twig
 ```
 
-### yii2-core
+### yii2-framework
 
 [git subtree](https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt) of `yiisoft/yii2/yii` repo dir.
 Read only. Serves as a main `yiisoft/yii2` composer package.
@@ -36,9 +36,9 @@ The reason is because there's no other way to have clean `yiisoft/yii2` package 
 Dependencies are the ones strictly required for the core itself, nothing more. That means nothing about Twig or Smarty in
 `composer.json`.
 
-### yii2-app-bootstrap
+### yii2-bootstrap
 
-Default application template. Read only. git subtree of ``yiisoft/yii2/app/bootstrap`. Defines `yiisoft/yii2-app-bootstrap`
+Default application template. Read only. git subtree of ``yiisoft/yii2/app/bootstrap`. Defines `yiisoft/yii2-bootstrap`
 composer package that depends on `yiisoft/yii2`.
 
 In the readme we'll recommend the following way of starting development with Yii2:
