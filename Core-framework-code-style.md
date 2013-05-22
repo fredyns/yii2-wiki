@@ -359,3 +359,7 @@ Use `empty()` where possible.
 ### multiple return points
 
 Return early when conditions nesting starts to get cluttered. If the method is short it doesn't matter.
+
+### value for "don't do something"
+
+Properties allowing to configure component not to do something should accept value of `false`. `null`, `''`, or `array()` should not be assumed as such.
