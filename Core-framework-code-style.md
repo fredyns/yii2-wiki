@@ -349,3 +349,13 @@ public function getEventHandlers($name)
 - One-line comments should be started with `//` and not `#`.
 - One-line comment should be on its own line.
 
+Additional rules
+----------------
+
+### `=== array()` vs `empty()`
+
+Use `empty()` where possible.
+
+### multiple return points
+
+Return early when conditions nesting starts to get cluttered. If the method is short it doesn't matter.
