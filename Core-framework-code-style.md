@@ -367,5 +367,5 @@ Properties allowing to configure component not to do something should accept val
 ### Directory/namespace names
 
 - use lower case
-- use plural form for nouns (e.g. validators)
-- if noun is not possible, use a name representing the relevant functionality/feature (e.g. web)
+- use plural form for nouns which represent objects (e.g. validators)
+- use singular form for names representing relevant functionality/features (e.g. web)
