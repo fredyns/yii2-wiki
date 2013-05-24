@@ -363,3 +363,9 @@ Return early when conditions nesting starts to get cluttered. If the method is s
 ### value for "don't do something"
 
 Properties allowing to configure component not to do something should accept value of `false`. `null`, `''`, or `array()` should not be assumed as such.
+
+### Directory/namespace names
+
+- use lower case
+- use plural form for nouns (e.g. validators)
+- if noun is not possible, use a name representing the relevant functionality/feature (e.g. web)
