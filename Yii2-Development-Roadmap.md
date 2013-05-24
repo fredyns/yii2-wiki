@@ -60,28 +60,28 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Ready April 1, 2013
 
- - User and Identity
- - Optimistic Locking of ActiveRecord
- - I18N
+- User and Identity
+- Optimistic Locking of ActiveRecord
+- I18N
 
 ### Ready April 20, 2013
 
- - Asset and script management
- - Extension organization
+- Asset and script management
+- Extension organization
 
 ### Ready May 3, 2013
  
  - ActiveForm
  - Hello world app
 
-### Todos BEFORE Public Preview
+### Ready May 25, 2013
 
-- Request/Response classes.
 - Web controller and application.
+- RBAC.
 
 ### Todos BEFORE Alpha
 
-- RBAC.
+- Request/Response adjustments.
 - NoSQL backends for ActiveRecord
 - Console formatting helper (including colors).
 
