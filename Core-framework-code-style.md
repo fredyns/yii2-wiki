@@ -283,6 +283,24 @@ doIt('a', array(
 ));
 ```
 
+### 5.6 Anonymous functions (lambda) declarations
+
+Note space between `function` token and open parenthesis:
+
+```php
+// good
+$sum = array_reduce($numbers, function ($r, $x) {
+	$r += $x;
+	return $r;
+});
+
+// bad
+$mul = array_reduce($numbers, function($r, $x) {
+	$r *= $x;
+	return $r;
+});
+```
+
 Documentation
 -------------
 
