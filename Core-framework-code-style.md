@@ -285,17 +285,21 @@ doIt('a', array(
 
 ### 5.6 Anonymous functions (lambda) declarations
 
-Note space between `function` token and open parenthesis:
+Note space between `function`/`use` tokens and open parenthesis:
 
 ```php
 // good
-$sum = array_reduce($numbers, function ($r, $x) {
+$self = $this;
+$sum = array_reduce($numbers, function ($r, $x) use ($self) {
+	$self->doMagic();
 	$r += $x;
 	return $r;
 });
 
 // bad
-$mul = array_reduce($numbers, function($r, $x) {
+$self = $this;
+$mul = array_reduce($numbers, function($r, $x) use($self) {
+	$self->doMagic();
 	$r *= $x;
 	return $r;
 });
