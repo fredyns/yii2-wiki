@@ -79,11 +79,16 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Web controller and application.
 - RBAC.
 
-### Todos BEFORE Alpha
+### Ready July 28, 2013
 
 - Request/Response adjustments.
+- Console formatting helper (including colors). Still needs some cleanup.
+- Application templates: basic and advanced.
+- Data providers, list view.
+
+### Todos BEFORE Alpha
+
 - NoSQL backends for ActiveRecord
-- Console formatting helper (including colors).
 
 ### Todos BEFORE Beta
 
