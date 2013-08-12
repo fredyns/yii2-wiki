@@ -88,10 +88,11 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Todos BEFORE Alpha
 
-- NoSQL backends for ActiveRecord
+- Gii.
+- Advanced widgets (e.g. grid view).
+- Documentation.
+- Tools for release process: API generation, docs viewer etc.
 
 ### Todos BEFORE Beta
 
-- Gii.
-- Advanced widgets (e.g. grid view).
-- API documentation generator.
+- NoSQL backends for ActiveRecord
