@@ -319,8 +319,8 @@ Documentation
   are documented with an `@property` tag in the class doc block.
   These annotations are automatically generated from the `@return` or `@param`
   tag in the corresponding getter or setter. You may add an `@property` tag
-  to the getter to explicitly give a documentation message for the property 
-  introduced by this getter when description differs from what is stated
+  to the getter or setter to explicitly give a documentation message for the property 
+  introduced by these methods when description differs from what is stated
   in `@return`. Here is an example:
   
   ```php
