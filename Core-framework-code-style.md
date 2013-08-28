@@ -318,7 +318,8 @@ Documentation
 - All virtual properties in classes that extend from `yii\base\Object`
   are documented with an `@property` tag in the class doc block.
   These annotations are automatically generated from the `@return` or `@param`
-  tag in the corresponding getter or setter. You may add an `@property` tag
+  tag in the corresponding getter or setter by running `./build php-doc` in the build directory.
+  You may add an `@property` tag
   to the getter or setter to explicitly give a documentation message for the property 
   introduced by these methods when description differs from what is stated
   in `@return`. Here is an example:
