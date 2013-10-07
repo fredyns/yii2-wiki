@@ -93,6 +93,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### Todos BEFORE Alpha
 
+- i18n based on intl.
 - Advanced widgets (e.g. grid view).
 - Documentation.
 - Tools for release process: API generation, docs viewer etc.
