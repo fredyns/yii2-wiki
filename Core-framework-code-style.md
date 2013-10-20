@@ -135,12 +135,10 @@ class Foo
 Use the following format for associative arrays:
 
 ```php
-$config = array(
+$config = [
 	'name'  => 'Yii',
-	'options' => array(
-		'usePHP' => true,
-	),
-);
+	'options' => ['usePHP' => true],
+];
 ```
 
 Changing type of an existing variable is considered as a bad practice. Try not to write such code unless it is really necessary.
@@ -195,6 +193,8 @@ $sql = "SELECT *"
 
 ### 5.3 arrays
 
+For arrays we're using PHP 5.3 short array syntax.
+
 #### Numerically indexed
 
 - Do not use negative numbers as array indexes.
@@ -202,17 +202,17 @@ $sql = "SELECT *"
 Use the following formatting when declaring array:
 
 ```php
-$arr = array(3, 14, 15, 'Yii', 'Framework');
+$arr = [3, 14, 15, 'Yii', 'Framework'];
 ```
 
 If there are too many elements for a single line:
 
 ```php
-$arr = array(
+$arr = [
 	3, 14, 15,
 	92, 6, $test,
 	'Yii', 'Framework',
-);
+];
 ```
 
 #### Associative
@@ -220,12 +220,10 @@ $arr = array(
 Use the following format for associative arrays:
 
 ```php
-$config = array(
+$config = [
 	'name'  => 'Yii',
-	'options' => array(
-		'usePHP' => true,
-	),
-);
+	'options' => ['usePHP' => true],
+];
 ```
 
 ### 5.4 control statements
@@ -276,13 +274,12 @@ switch ($this->phpType) {
 ```php
 doIt(2, 3);
 
-doIt(array(
-	'a' => 'b',
-));
+doIt(['a' => 'b']);
 
-doIt('a', array(
+doIt('a', [
 	'a' => 'b',
-));
+	'c' => 'd',
+]);
 ```
 
 ### 5.6 Anonymous functions (lambda) declarations
@@ -291,18 +288,18 @@ Note space between `function`/`use` tokens and open parenthesis:
 
 ```php
 // good
-$self = $this;
-$sum = array_reduce($numbers, function ($r, $x) use ($self) {
-	$self->doMagic();
-	$r += $x;
+$n = 100;
+$sum = array_reduce($numbers, function ($r, $x) use ($n) {
+	$this->doMagic();
+	$r += $x * $n;
 	return $r;
 });
 
 // bad
-$self = $this;
-$mul = array_reduce($numbers, function($r, $x) use($self) {
-	$self->doMagic();
-	$r *= $x;
+$n = 100;
+$mul = array_reduce($numbers, function($r, $x) use($n) {
+	$this->doMagic();
+	$r *= $x * $n;
 	return $r;
 });
 ```
@@ -418,7 +415,7 @@ The part before the | is the method, property or class reference while the part 
 Additional rules
 ----------------
 
-### `=== array()` vs `empty()`
+### `=== []` vs `empty()`
 
 Use `empty()` where possible.
 
@@ -428,7 +425,7 @@ Return early when conditions nesting starts to get cluttered. If the method is s
 
 ### value for "don't do something"
 
-Properties allowing to configure component not to do something should accept value of `false`. `null`, `''`, or `array()` should not be assumed as such.
+Properties allowing to configure component not to do something should accept value of `false`. `null`, `''`, or `[]` should not be assumed as such.
 
 ### Directory/namespace names
 
