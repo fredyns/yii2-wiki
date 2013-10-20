@@ -24,8 +24,8 @@ $this->title = 'Posts';
 <!-- Separate PHP blocks are preferred for foreach, for, if etc. -->
 <?php foreach($posts as $post): ?>
 	<!-- Note indentation level here. -->
-	<h2><?php echo Html::encode($post['title']); ?></h2>
-	<p><?php echo Html::encode($post['shortDescription']); ?></p>
+	<h2><?= Html::encode($post['title']) ?></h2>
+	<p><?= Html::encode($post['shortDescription']) ?></p>
 <!-- `endforeach;`, `endfor;`, `endif;`, etc. should be used instead of `}` in case multiple PHP blocks are used -->
 <?php endforeach; ?>
 
@@ -35,13 +35,13 @@ $this->title = 'Posts';
 	'fieldConfig' => array('inputOptions' => array('class' => 'common-input')),
 )); ?>
 	<!-- Note indentation level here. -->
-	<?php echo $form->field($contactMessage, 'name')->textInput(); ?>
-	<?php echo $form->field($contactMessage, 'email')->textInput(); ?>
-	<?php echo $form->field($contactMessage, 'subject')->textInput(); ?>
-	<?php echo $form->field($contactMessage, 'body')->textArea(array('rows' => 6)); ?>
+	<?= $form->field($contactMessage, 'name')->textInput() ?>
+	<?= $form->field($contactMessage, 'email')->textInput() ?>
+	<?= $form->field($contactMessage, 'subject')->textInput() ?>
+	<?= $form->field($contactMessage, 'body')->textArea(array('rows' => 6)) ?>
 
 	<div class="form-actions">
-		<?php echo Html::submitButton('Submit', array('class' => 'common-button')); ?>
+		<?= Html::submitButton('Submit', array('class' => 'common-button')) ?>
 	</div>
 <!-- Ending widget call should have individual PHP tag. -->
 <?php ActiveForm::end(); ?>
