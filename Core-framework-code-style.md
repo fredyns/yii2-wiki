@@ -5,7 +5,7 @@ You can get a config for CodeSniffer here: https://github.com/yiisoft/yii2-codin
 1. Overview
 -----------
 
-- Files MUST use only `<?php` tags.
+- Files MUST use either `<?php` or `<?=` tags.
 - There should be a newline at the end of file.
 - Files MUST use only UTF-8 without BOM for PHP code.
 - Code MUST use tabs for indenting, not spaces.
@@ -21,7 +21,7 @@ You can get a config for CodeSniffer here: https://github.com/yiisoft/yii2-codin
 
 ### 2.1. PHP Tags
 
-- PHP code MUST use the long `<?php ?>` tags; it MUST NOT use the other tag variations such as `<?`.
+- PHP code MUST use `<?php ?>` or `<?=` tags; it MUST NOT use the other tag variations such as `<?`.
 - In case file contains PHP only it should not have trailing `?>`.
 - Do not add trailing spaces to the end of the lines.
 - Any file that contains PHP code should end with the extension `.php`.
