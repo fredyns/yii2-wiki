@@ -1,4 +1,4 @@
-Our next major release Yii 2.0 will be full rebuilt on top of PHP 5.3.7+, leveraging the new language features as well as the feedback we have received on 1.1.
+Our next major release Yii 2.0 will be full rebuilt on top of PHP 5.4.0+, leveraging the new language features as well as the feedback we have received on 1.1.
 
 Yii 2.0 will not be compatible with 1.1. However, we will try every effort to make the transition as easy as possible.
 
