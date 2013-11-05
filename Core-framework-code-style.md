@@ -185,7 +185,7 @@ $name = 'Yii' . ' Framework';
 
 When string is long format is the following:
 
-```
+```php
 $sql = "SELECT *"
 	. "FROM `post` "
 	. "WHERE `id` = 121 ";
