@@ -1,8 +1,4 @@
-It seems either we're using Yii2 as composer package in our apps or it hits us back with lots of bad stuff.
-Using Yii2 as a package will require some rethinking and restructuring because of the following:
-
-1. You can't have 2 composer packages in the same repo.
-2. There's no good/reliable way to include only some files from repo into composer package.
+> **The content of this page is not up to date.** Current directory and repository structure is different than described here. For up to date information refer to the README of the sub repositories.
 
 Repositories and composer packages
 ----------------------------------
