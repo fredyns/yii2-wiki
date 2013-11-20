@@ -423,6 +423,14 @@ Use `empty()` where possible.
 
 Return early when conditions nesting starts to get cluttered. If the method is short it doesn't matter.
 
+### `self` vs. `static`
+
+Always use `static` except the following cases:
+
+- accessing constants MUST be done via `self`: `self::MY_CONSTANT`
+- accessing private static properties MUST be done via `self`: `self::$_events`
+- It is allowed to use `self` for recursion to call current implementation again instead of extending classes implementation.
+
 ### value for "don't do something"
 
 Properties allowing to configure component not to do something should accept value of `false`. `null`, `''`, or `[]` should not be assumed as such.
