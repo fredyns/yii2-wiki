@@ -6,5 +6,3 @@ Welcome to the yii2 wiki!
 ## [Git workflow for Yii contributors](https://github.com/yiisoft/yii/wiki/Git-workflow-for-Yii-contributors)
 
 ## [Glossary](https://github.com/yiisoft/yii2/wiki/Glossary)
-
-## [Extension development guidelines](https://github.com/yiisoft/yii2/wiki/Extension-Development)
