@@ -96,11 +96,15 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - i18n based on intl (still need to finish fallback for English + no intl).
 - Advanced widgets (e.g. grid view).
 
-### Todos BEFORE Alpha
+### Alpha December 1, 2013
 
 - Documentation.
-- Tools for release process: API generation, docs viewer etc.
+- NoSQL backends for ActiveRecord.
 
 ### Todos BEFORE Beta
 
-- NoSQL backends for ActiveRecord.
+- More documentation.
+- Tools for release process: API generation, docs viewer etc.
+- RESTful API support.
+- Testing support.
+- Structure and tools for message and guide translations.
