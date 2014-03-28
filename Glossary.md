@@ -58,7 +58,7 @@ Namespace refers to a [PHP language feature](http://php.net/manual/en/language.n
 
 ## package
 
-See bundle.
+[See bundle](#bundle).
 
 # V
 
