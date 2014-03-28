@@ -14,6 +14,10 @@ The application object is instantiated as a singleton by the entry script. The a
 
 Asset refers to a resource file. Typically it contains JavaScript or CSS code but can be anything else that is accessed via HTTP.
 
+## attribute
+
+An attribute is a model property (a class member variable or a magic property defined via `__get()`/`__set()`) that stores **business data**.
+
 # B
 
 ## bundle
