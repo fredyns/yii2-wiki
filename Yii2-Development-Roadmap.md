@@ -101,10 +101,20 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Documentation.
 - NoSQL backends for ActiveRecord.
 
-### Todos BEFORE Beta
+### Beta  April 13, 2014
 
 - More documentation.
 - Tools for release process: API generation, docs viewer etc.
 - RESTful API support.
 - Testing support.
-- Structure and tools for message and guide translations.
+- Structure and tools for message translations.
+- PSR-1, PSR-2, PSR-4.
+- More extensions.
+
+### TODO before RC
+
+- Cleanup TODO/FIXME.
+- Fix bugs.
+- More tests.
+- Finish docs.
+- Infrastructure for guide translations.
