@@ -117,7 +117,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Fix bugs.
 - More tests.
 - Finish docs.
-- Infrastructure for guide translations.
+- Infrastructure for guide translations (done).
 
 ### TODO before release
 
