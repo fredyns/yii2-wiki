@@ -111,7 +111,7 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - PSR-1, PSR-2, PSR-4.
 - More extensions.
 
-### TODO before RC
+### RC  September 28, 2014
 
 - Cleanup TODO/FIXME.
 - Fix bugs.
@@ -119,9 +119,13 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 - Finish docs.
 - Infrastructure for guide translations (done).
 
-### TODO before release
+### GA (stable) October 12, 2014
+
+- Cleanup TODO/FIXME.
+- Fix bugs.
+- Finish docs.
+
+### After stable release
 
 - new website
-- bugfixing
-- docs polishing
 - tutorials
