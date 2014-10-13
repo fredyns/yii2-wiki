@@ -127,7 +127,8 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 ### After stable release
 
-- new website
-- tutorials
-- 2.0.x patch releases
-- 2.x minor releases
+- Polish docs. Finish ones not finished.
+- New website.
+- Tutorials.
+- 2.0.x patch releases.
+- 2.x minor releases.
