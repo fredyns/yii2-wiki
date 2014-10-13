@@ -129,3 +129,5 @@ If you have a new project to develop on Yii, do not wait for 2.0 as it will stil
 
 - new website
 - tutorials
+- 2.0.x patch releases
+- 2.x minor releases
