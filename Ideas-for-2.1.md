@@ -36,7 +36,7 @@ Environments
 Functions
 =========
 
-- Provide global functions for commonly used helpers.
+- Provide global functions for commonly used helpers such as `url()`, `user()` etc.
 
 RBAC
 ====
