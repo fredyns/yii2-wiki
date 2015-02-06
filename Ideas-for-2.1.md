@@ -29,7 +29,7 @@ Globals
 Environments
 ============
 
-- Use dotenv.
+- Use [dotenv](https://github.com/vlucas/phpdotenv) or alike approach.
 - Adjust YII_ENV and other environment related stuff in framework core.
 
 Functions
