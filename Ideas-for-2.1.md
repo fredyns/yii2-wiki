@@ -2,6 +2,7 @@ Core
 ====
 
 - More interfaces, stricter type hinting.
+- See if it's possible to use [SuperClosure](https://github.com/jeremeamia/super_closure) to simplify serialization code / solve quirks.
 
 Client side
 ===========
