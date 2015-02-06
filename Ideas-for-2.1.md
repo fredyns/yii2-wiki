@@ -2,8 +2,9 @@ Client side
 ===========
 
 - Use npm/bower directly. Drop fxp composer plugin.
-- Adopt grunt workflow, remove console asset compressor.
+- Adopt grunt/gulp workflow, remove console asset compressor.
 - Remove dependencies on any clientside libraries.
+- [Replace PJAX with something more stable and low level](https://github.com/yiisoft/yii2/issues/7129).
 
 Models
 ======
