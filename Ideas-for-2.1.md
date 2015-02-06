@@ -1,3 +1,8 @@
+Core
+====
+
+- More interfaces, stricter type hinting.
+
 Client side
 ===========
 
@@ -31,3 +36,8 @@ Functions
 =========
 
 - Provide global functions for commonly used helpers.
+
+RBAC
+====
+
+- [Use models to represent items](https://github.com/yiisoft/yii2/issues/570).
