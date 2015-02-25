@@ -5,11 +5,17 @@ Core
 - See if it's possible to use [SuperClosure](https://github.com/jeremeamia/super_closure) to simplify serialization code / solve quirks.
 - Try to use traits instead of behaviors and drop behaviors.
 - [finalize classes where possible](https://ocramius.github.io/blog/when-to-declare-classes-final/).
+- Replace `YII_DEBUG` and other constants with application property?
+
+Application templates
+=====================
+
+- Get rid of init script. It's not really matches what most people are expecting from it.
 
 Client side
 ===========
 
-- Use npm/bower directly. Drop fxp composer plugin. Require node.js.
+- Use npm/bower directly. Drop fxp composer plugin (slows down installation, causes issues, requires global plugin install). Require node.js.
 - Adopt grunt/gulp workflow, remove console asset compressor.
 - Remove dependencies on any clientside libraries.
 - [Replace PJAX with something more stable and low level](https://github.com/yiisoft/yii2/issues/7129).
