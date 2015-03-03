@@ -16,7 +16,7 @@ Client side
 ===========
 
 - Use npm/bower directly. Drop fxp composer plugin (slows down installation, causes issues, requires global plugin install). Require node.js.
-- Adopt grunt/gulp workflow, remove console asset compressor.
+- Adopt grunt/gulp workflow, remove console asset compressor (could be bad idea beacause of HTTP/2).
 - Remove dependencies on any clientside libraries.
 - [Replace PJAX with something more stable and low level](https://github.com/yiisoft/yii2/issues/7129).
 
