@@ -7,6 +7,7 @@ Core
 - [finalize classes where possible](https://ocramius.github.io/blog/when-to-declare-classes-final/).
 - Replace `YII_DEBUG` and other constants with application property?
 - When triggering events, pass data as a separate argument insted of a part of event object (commonly referred to as inconvenient).
+- Extract `findIdentityByAccessToken` from `IdentityInterface` (looks weird when it's not implemented in all web apps).
 
 Application templates
 =====================
