@@ -26,6 +26,7 @@ Models
 ======
 
 - Avoid rule duplication in model/form model.
+- Use HTML-5 data attributes to specify validation rules + global validation script that doesn't require additional config.
 
 AR
 ==
