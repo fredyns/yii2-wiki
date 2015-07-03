@@ -53,3 +53,8 @@ RBAC
 ====
 
 - [Use models to represent items](https://github.com/yiisoft/yii2/issues/570).
+
+Translation files
+=================
+
+- Use `_` instead of `-`.
