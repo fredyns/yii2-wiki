@@ -54,7 +54,7 @@ RBAC
 
 - [Use models to represent items](https://github.com/yiisoft/yii2/issues/570).
 
-Translation files
-=================
+Translations
+============
 
-- Use `_` instead of `-`.
+- Use `_` instead of `-`. Or other way around for view files, message files etc.
