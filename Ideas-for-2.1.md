@@ -3,7 +3,7 @@ Core
 
 - More interfaces, stricter type hinting.
 - See if it's possible to use [SuperClosure](https://github.com/jeremeamia/super_closure) to simplify serialization code / solve quirks.
-- Try to use traits instead of behaviors and drop behaviors.
+- Try to use traits + events instead of behaviors and drop behaviors.
 - [finalize classes where possible](https://ocramius.github.io/blog/when-to-declare-classes-final/).
 - Replace `YII_DEBUG` and other constants with application property?
 - When triggering events, pass data as a separate argument insted of a part of event object (commonly referred to as inconvenient).
