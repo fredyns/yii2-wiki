@@ -8,6 +8,8 @@ Core
 - Replace `YII_DEBUG` and other constants with application property?
 - When triggering events, pass data as a separate argument insted of a part of event object (commonly referred to as inconvenient).
 - Extract `findIdentityByAccessToken` from `IdentityInterface` (looks weird when it's not implemented in all web apps).
+- Try to eliminate `Object` and `Component` turning these into traits.
+- [Method DI](https://github.com/yiisoft/yii2/issues/9476)
 
 Application templates
 =====================
