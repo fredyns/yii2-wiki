@@ -60,3 +60,8 @@ Translations
 ============
 
 - Use `_` instead of `-`. Or other way around for view files, message files etc.
+
+Bootstrap extension
+===================
+
+- Remove all widgets that doing things that could be done simpler via plain HTML.
