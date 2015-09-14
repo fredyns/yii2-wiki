@@ -73,3 +73,8 @@ Decoupling
 ==========
 
 Consider decoupling components from framework making them general purpose PHP ones where it makes sense.
+
+Requirements
+============
+
+- `password_*` — >=5.5
