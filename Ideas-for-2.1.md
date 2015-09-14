@@ -77,4 +77,7 @@ Consider decoupling components from framework making them general purpose PHP on
 Requirements
 ============
 
-- `password_*` — >=5.5
+- `password_*` >=5.5
+- `hash_pbkdf2` >= 5.5
+- `hash_equals` >= 5.6
+- `random_bytes` and `random_int` >= 7.0
