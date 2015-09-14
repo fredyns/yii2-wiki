@@ -23,6 +23,7 @@ Client side
 - Adopt grunt/gulp workflow, remove console asset compressor (could be bad idea beacause of HTTP/2).
 - Remove dependencies on any clientside libraries.
 - [Replace PJAX with something more stable and low level](https://github.com/yiisoft/yii2/issues/7129).
+- Don't generate JavaScript code for anything (incl. validation). It should stay static. Generate data-attributes instead.
 
 Models
 ======
