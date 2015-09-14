@@ -66,3 +66,8 @@ Bootstrap extension
 ===================
 
 - Remove all widgets that doing things that could be done simpler via plain HTML.
+
+Decoupling
+==========
+
+Consider decoupling components from framework making them general purpose PHP ones where it makes sense.
