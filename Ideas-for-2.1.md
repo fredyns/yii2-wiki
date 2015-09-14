@@ -1,3 +1,5 @@
+These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/milestones/2.1.x) about good to have in Yii 2.1 things.
+
 Core
 ====
 
