@@ -13,6 +13,11 @@ Core
 - Try to eliminate `Object` and `Component` turning these into traits. Could extract AccessorTrait, EventTrait etc.
 - [Method DI](https://github.com/yiisoft/yii2/issues/9476)
 
+Web
+===
+
+Consider PSR-7 compatible middleware.
+
 Application templates
 =====================
 
@@ -81,3 +86,8 @@ Requirements
 - `hash_pbkdf2` >= 5.5
 - `hash_equals` >= 5.6
 - `random_bytes` and `random_int` >= 7.0
+
+Logging
+=======
+
+Consider PSR-3 compatible component.
