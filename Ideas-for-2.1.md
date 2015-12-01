@@ -91,3 +91,9 @@ Logging
 =======
 
 Consider PSR-3 compatible component.
+
+Cache
+=====
+
+- https://stackoverflow.com/questions/34008096/why-yii2-uses-abbreviated-methods-names-in-yii-caching-cache/34015634
+- Consider PSR cache.
