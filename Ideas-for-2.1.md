@@ -54,11 +54,6 @@ Environments
 - Use [dotenv](https://github.com/vlucas/phpdotenv) or alike approach.
 - Adjust YII_ENV and other environment related stuff in framework core.
 
-Functions
-=========
-
-- Provide global functions for commonly used helpers such as `url()`, `user()` etc.
-
 RBAC
 ====
 
