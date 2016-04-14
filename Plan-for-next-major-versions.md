@@ -4,7 +4,7 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 ## Requirements
 
-- Raise requirements to PHP 7 (it will be in Ubuntu LTS this summer).
+- Raise requirements to PHP 7 (it will be in Ubuntu LTS this summer). Still not decided.
 
 ## Security
 
@@ -13,8 +13,9 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 ## Client side
 
-Do not attempt to solve clientside issues.
+Do not attempt to solve clientside issues in the core.
 
+- Move `MaskedInput` into separate repository.
 - Drop fxp composer plugin. Describe how to use bower (or phpbower), npm in official docs.
 - Remove console asset compressor. Describe grunt/gulp workflow.
 - Remove dependencies on any clientside libraries.
