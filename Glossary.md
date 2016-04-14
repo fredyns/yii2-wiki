@@ -1,1 +1,0 @@
-https://github.com/yiisoft/yii2/blob/master/docs/guide/glossary.md
