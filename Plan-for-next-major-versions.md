@@ -15,7 +15,7 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 Do not attempt to solve clientside issues in the core.
 
-- Move `MaskedInput` into separate repository.
+- Move `MaskedInput` into separate repository or remove it.
 - Drop fxp composer plugin. Describe how to use bower (or phpbower), npm in official docs.
 - Remove console asset compressor. Describe grunt/gulp workflow.
 - Remove dependencies on any clientside libraries.
