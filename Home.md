@@ -1,4 +1,4 @@
-Welcome to the yii2 wiki!
+Welcome to the Yii developers wiki!
 
 - [Plan for next major versions](https://github.com/yiisoft/yii2/wiki/Plan-for-next-major-versions)
 
