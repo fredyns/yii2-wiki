@@ -13,7 +13,7 @@ Welcome to the yii2 wiki!
 
 ## Misc
 
-- [Glossary](https://github.com/yiisoft/yii2/wiki/Glossary)
+- [Glossary](https://github.com/yiisoft/yii2/blob/master/docs/guide/glossary.md)
 
 ## History
 
