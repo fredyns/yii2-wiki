@@ -80,3 +80,15 @@ Consider PSR-3 compatible component.
 
 - https://stackoverflow.com/questions/34008096/why-yii2-uses-abbreviated-methods-names-in-yii-caching-cache/34015634
 - Consider PSR cache.
+
+# Candidates for core-independent general PHP packages
+
+- Cache
+- Migrations
+- Events?
+- Captcha
+- Console
+- i18n
+- log
+- mutex
+- RBAC
