@@ -2,15 +2,6 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 # 2.1
 
-## Requirements
-
-- Raise requirements to PHP 7 (it will be in Ubuntu LTS this summer). Still not decided.
-
-## Security
-
-- Remove custom random number generation in favor of what's in PHP 7.
-- Remove custom bcrypt password hashing in favor of what's in PHP 7.
-
 ## Client side
 
 Do not attempt to solve clientside issues in the core.
@@ -21,6 +12,18 @@ Do not attempt to solve clientside issues in the core.
 - Remove dependencies on any clientside libraries.
 - Extract PJAX into independent package or drop completely.
 - If there's high demand on keep assets support, implement as an independent package.
+
+# 2.2
+
+## Requirements
+
+- Raise requirements to PHP 7 (it will be in Ubuntu LTS this summer). Still not decided.
+
+## Security
+
+- Remove custom random number generation in favor of what's in PHP 7.
+- Remove custom bcrypt password hashing in favor of what's in PHP 7.
+
 
 # Not decided which release it should be in
 
