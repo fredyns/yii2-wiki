@@ -2,6 +2,10 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 # 2.1
 
+## Requirements
+
+Raise requirements to PHP 5.6. See https://github.com/yiisoft/yii2/issues/11397
+
 ## Client side
 
 Do not attempt to solve clientside issues in the core.
