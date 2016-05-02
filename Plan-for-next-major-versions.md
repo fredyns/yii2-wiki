@@ -5,6 +5,8 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 ## Requirements
 
 [x] Raise requirements to PHP 5.6. See https://github.com/yiisoft/yii2/issues/11397
+[x] Remove everything marked as `@deprecated`.
+[ ] See if more PHP 5.6 features could be used and more compatibility hacks removed.
 
 ## Client side
 
