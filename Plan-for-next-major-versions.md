@@ -4,7 +4,7 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 ## Requirements
 
-Raise requirements to PHP 5.6. See https://github.com/yiisoft/yii2/issues/11397
+[x] Raise requirements to PHP 5.6. See https://github.com/yiisoft/yii2/issues/11397
 
 ## Client side
 
