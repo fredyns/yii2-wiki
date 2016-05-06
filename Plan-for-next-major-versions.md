@@ -2,6 +2,11 @@ These are thoughts additional to [open issues](https://github.com/yiisoft/yii2/m
 
 # 2.1
 
+## Infrastructure
+
+- [ ] Switch to 2.1.x.x SemVer release tagging.
+- [ ] Announce LTS.
+
 ## Requirements
 
 - [x] Raise requirements to PHP 5.6. See https://github.com/yiisoft/yii2/issues/11397
