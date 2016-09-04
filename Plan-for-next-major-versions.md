@@ -48,6 +48,7 @@ Do not attempt to solve clientside issues in the core.
 - When triggering events, pass data as a separate argument insted of a part of event object (commonly referred to as inconvenient).
 - Extract `findIdentityByAccessToken` from `IdentityInterface` (looks weird when it's not implemented in all web apps).
 - Try to eliminate `Object` and `Component` turning these into traits. Could extract AccessorTrait, EventTrait etc.
+- Decouple routing from controllers and modules. Allow specifying any class method as a callback for a matching route.
 
 ## Web
 
