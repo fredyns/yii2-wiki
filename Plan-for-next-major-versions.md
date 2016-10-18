@@ -41,6 +41,7 @@ Do not attempt to solve clientside issues in the core.
 
 ## Core
 
+- Merge `components` and DI container configs.
 - More interfaces, stricter type hinting.
 - See if it's possible to use [SuperClosure](https://github.com/jeremeamia/super_closure) to simplify serialization code / solve quirks.
 - Try to use traits + events instead of behaviors and drop behaviors.
