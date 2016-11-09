@@ -48,7 +48,7 @@ Do not attempt to solve clientside issues in the core.
 - [finalize classes where possible](https://ocramius.github.io/blog/when-to-declare-classes-final/).
 - When triggering events, pass data as a separate argument insted of a part of event object (commonly referred to as inconvenient).
 - Extract `findIdentityByAccessToken` from `IdentityInterface` (looks weird when it's not implemented in all web apps).
-- Try to eliminate `Object` and `Component` turning these into traits. Could extract AccessorTrait, EventTrait etc.
+- Try to eliminate `Object` and `Component` turning these into traits. Could extract AccessorTrait, EventTrait etc. Alternatively we can drop accessors. Will get [PSR-2](https://github.com/yiisoft/yii2/issues/11956) and stricter interfaces in exchange additionally to possibility to get more performance.
 - Decouple routing from controllers and modules. Allow specifying any class method as a callback for a matching route.
 
 ## Web
