@@ -20,7 +20,7 @@ Do not attempt to solve clientside issues in the core.
 
 - Move `MaskedInput` into separate repository or remove it.
 - Drop fxp composer plugin. Describe how to use bower (or phpbower), npm in official docs.
-- Remove console asset compressor. Describe grunt/gulp workflow.
+- Move console asset compressor out of the core. Describe grunt/gulp workflow.
 - Remove dependencies on any clientside libraries.
 - Extract PJAX into independent package or drop completely.
 - If there's high demand on keep assets support, implement as an independent package.
