@@ -5,7 +5,7 @@ Welcome to the Yii developers wiki!
 ## Build status
 
 - Travis: [![Build Status](https://img.shields.io/travis/yiisoft/yii2.svg)](http://travis-ci.org/yiisoft/yii2)
-- GitLab CI: [![build status](https://gitlab.com/yiisoft-contrib/yii2/badges/feature/docker-testing/build.svg)](https://gitlab.com/yiisoft-contrib/yii2/commits/feature/docker-testing)
+- GitLab CI: [![build status](https://gitlab.com/yiisoft-contrib/yii2/badges/master/build.svg)](https://gitlab.com/yiisoft-contrib/yii2/commits/master)
 
 ## Code style
 
