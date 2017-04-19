@@ -1,7 +1,9 @@
 # Yii 2.0
 
-- Travis: [![Build Status](https://img.shields.io/travis/yiisoft/yii2.svg)](http://travis-ci.org/yiisoft/yii2)
-- GitLab CI: [![build status](https://gitlab.com/yiisoft/yii2/badges/master/build.svg)](https://gitlab.com/yiisoft/yii2/pipelines)
+CI     | Status
+-------|-------
+Travis | [![Build Status](https://img.shields.io/travis/yiisoft/yii2.svg)](http://travis-ci.org/yiisoft/yii2)
+GitLab | [![build status](https://gitlab.com/yiisoft/yii2/badges/master/build.svg)](https://gitlab.com/yiisoft/yii2/pipelines)
 
 # Yii 2.0 Application Templates
 
