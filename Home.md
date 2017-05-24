@@ -22,6 +22,7 @@ Welcome to the Yii developers wiki!
 
 - [Yii Versioning](https://github.com/yiisoft/yii2/blob/master/docs/internals/versions.md)
 - [Glossary](https://github.com/yiisoft/yii2/blob/master/docs/guide/glossary.md)
+- [Communities](https://github.com/yiisoft/yii2/wiki/communities)
 
 ## History
 
