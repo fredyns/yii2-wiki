@@ -29,3 +29,8 @@
 - [Habrahabr](https://habrahabr.ru/hub/yii/)
 - Toster: [Yii 1.1](https://toster.ru/tag/yii/questions), [Yii 2](https://toster.ru/tag/yii2/questions)
 - [VK Ukraine](https://vk.com/yiiframework_ua)
+
+## Indonesian
+
+- [Facebook](https://www.facebook.com/groups/yii.indonesia/)
+- [Telegram](https://t.me/YiiFrameworkIndonesia)
